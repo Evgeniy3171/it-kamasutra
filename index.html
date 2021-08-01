@@ -7,6 +7,13 @@
     <title>Урок № 1</title>
 </head>
 <body>
-    
+    Hello <input id='message' />
+
+    <script>
+        setInterval(function(){
+            let messageInput = document.getElementById('message');
+            window.alert(messageInput.value);
+        }, 4000);
+    </script>
 </body>
 </html>
